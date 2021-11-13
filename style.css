@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    
+}
+body {
+    background-color: rgb(255, 245, 152);
+}
+
+.top-wrapper {
+    color: rgb(3, 41, 53);
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.top-wrapper h1, h3, p {
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 30px;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.calculator {
+    background-color: rgb(6, 87, 87);
+    border-radius: 10px;
+}
+
+.textView {
+    margin: 10px;
+    width: 180px;
+    height: 30px;
+    border: 1px solid rgb(8, 69, 109);
+    border-radius: 10px;
+    padding: 5px;
+}
+table {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.button {
+    margin: 2px;
+    padding: 10px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: thistle;
+}
+
+.equal {
+    height: 90px;
+}
+
+.zero {
+    width: 90px;
+}
